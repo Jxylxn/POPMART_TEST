@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.booking{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container {
+    width: 100vw;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    padding: 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a.confirm {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+a.submit {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: tomato;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:red;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+a:hover {
+    background-color: #c74430;
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.saka {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.date {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 100vw;
+    max-width: 600px;
+    margin-top: 100px;
+    font-size: 24px;
+    padding: 20px;
+    color: green;
+    background-color: white;
+    border-style: green;
+    border-radius: 5px;
+}
+
+.dayy {
+    display: block;
+    text-align: center;
+    word-spacing: 40px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+}
+
+a.day {
+    width: 100vw;
+    text-align: center;
+    padding: 20px 0;
+    color:black;
+    text-decoration: none;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+label {
+    font-size: 21px;
+}
+
+h1.please {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+}
